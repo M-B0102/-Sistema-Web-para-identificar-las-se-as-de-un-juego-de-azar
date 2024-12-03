@@ -1,0 +1,232 @@
+
+ html{
+     line-height:1.15;-webkit-text-size-adjust:100%
+}
+
+ body{
+     margin:0
+     
+}
+
+main{display:block
+
+}
+
+
+hr{box-sizing:content-box;height:0;overflow:visible
+}
+
+pre{font-family:monospace,monospace;font-size:1em
+}
+
+a{
+    background-color:transparent
+}
+abbr[title]{
+    border-bottom:none;
+    text-decoration:underline;
+    -webkit-text-decoration:underline dotted;
+    text-decoration:underline dotted
+}
+    b,strong{
+        
+        font-weight:bolder
+    }
+    code,kbd,samp{
+        font-family:monospace,monospace;font-size:1em
+    }
+
+    small{font-size:80%
+    }
+    sub,sup{
+        font-size:75%;
+        line-height:0;
+        position:relative;
+        vertical-align:baseline
+    }
+    sub{
+        bottom:-.25em
+    }
+    sup{
+        top:-.5em
+    }
+    
+    img{
+        border-style:none
+       }
+    button,input,optgroup,select,textarea{
+       font-family:inherit;
+       font-size:100%;
+       line-height:1.15;
+       margin:0
+    }
+  
+       
+    button,input{
+    overflow:visible
+    }
+    
+    button,select{
+    text-transform:none
+    }
+    [type=button],[type=reset],[type=submit],button{
+    -webkit-appearance:button
+    }
+    [type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
+    border-style:none;padding:0
+    }
+    [type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText
+    }
+    fieldset{
+    padding:.35em .75em .625em
+    }
+    
+
+    white-space:normal}progress{
+        vertical-align:baseline
+    }
+    
+    textarea{
+    overflow:auto
+     }
+    
+    [type=checkbox],[type=radio]{
+        
+    box-sizing:border-box;
+    padding:0}
+    
+    [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{
+    -webkit-appearance:textfield;outline-offset:-2px}
+    
+    [type=search]::-webkit-search-decoration{
+    -webkit-appearance:none
+    }
+    
+    
+    .text-center{text-align:center}
+    html{font-size:62.5%;box-sizing:border-box}
+    *,:after,:before{box-sizing:inherit}
+    body{font-family:Poppins,sans-serif;font-size:1.6rem}
+    p{color:#fff;font-size:2rem}
+    .contenedor{width:95%;max-width:1200px;margin:0 auto}
+    a{text-decoration:none}img{max-width:100%}
+    
+       
+        
+        body{
+            background-color:#FFFFFF}
+
+        @media (min-width:768px){
+        
+        .contenedor-estetica {
+                height: 100vh; 
+                display: grid;
+                gap: 2.5rem; 
+                grid-template-columns: repeat(2, 1fr);
+                background-color: #800080; /* Púrpura puro */
+       }
+        .contenedor-estetica .imagen{
+            height:30rem;
+            background-image:url(../img/Login.png);
+            background-size:cover;
+            background-position:50%
+            
+        }
+
+        .table1{
+            font-family:Arial,sans-serif;           
+            margin: auto;
+            color:#010136;
+            text-align:center;
+            
+            border-collapse: separate;
+            background: whitesmoke;
+                                      
+        }
+
+        td{
+            border: rgb(22, 3, 53) 0.5px solid;
+            margin: 25px;
+            font-size:1.6em; 
+                                      
+        }
+
+
+        .contenedor-estetica h1{
+            font-family:Arial,sans-serif;
+            margin:0 0 2.5rem;
+            font-weight:900;color:#131414;
+            text-align:center;
+            font-size:4rem;                           
+        }
+
+        .contenedor-estetica  h6{
+            font-family:Arial,sans-serif;
+            margin:0 0 2.5rem;
+            font-weight:900;color:#FFFFFF;
+            text-align:center;
+            font-size:1rem                           
+        }
+
+        .contenedor-estetica  h5{
+            font-family:Arial,sans-serif;
+            margin:0 0 2.5rem;
+            font-weight:900;color:#FFFFFF;
+            text-align:center;
+            font-size:1.5rem                           
+        }
+
+        .contenedor-estetica  h2{
+            font-family:Arial,sans-serif;
+            margin:0 0 2.5rem;
+            font-weight:900;color:#FFFFFF;
+            text-align:center;
+            font-size:2.5rem                           
+        }
+
+
+
+            @media (min-width:768px){
+            .contenedor-estetica .imagen{
+            height:auto}}.app{width:95%;
+            margin:0 auto;padding-top:2.5rem
+        }
+
+.form_container{
+            width: 70%;
+            margin: 0 auto;
+            }      
+           
+.formulario_input{
+width: 70%;
+background: rgb(245,240,240);
+border: 3px solid transparent;
+border-radius: 10spx;
+height: 35px;
+font-size: 25rem;
+}
+
+.formulario_input:focus{
+border: 3px solid rgb(252, 125, 7);
+outline: none;
+
+}
+
+.formulario_label{
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: rem;
+    }
+
+    .formulario_btn{
+        height: 35px;
+        width: 70%;
+        background: #d8cb12;
+        color:#10033b;
+        font-weight: bold;
+        border-radius: 6px;
+        cursor: pointer;
+        }
